@@ -4,6 +4,8 @@ A basic PHP library to talk to a leafcoind daemon to get you started in your lea
 
 I plan to expand upon the end points of the API.  Right now accounts and movement of coins is working.
 
+*Notes:* You can follow along (and suggest... please do) which API endpoints I work on next.  Head to the [issues area](https://github.com/wpstudio/php-leaf/issues) to contribute or to see what upcoming endpoints will be added to this api.
+
 
 ## Requirements
 
