@@ -139,4 +139,13 @@ class Leaf  {
      function get_mining_info(){
          return $this->client->getmininginfo();
      }
+     
+     /**
+      * Returns the transaction history of a specific leafcoin account
+      * 
+      * @param string $account account pulling transaction history
+      */
+      function list_transactions ( $account ) {
+          return $this->client->listtransactions($account);
+      }
 }
