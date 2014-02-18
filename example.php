@@ -8,7 +8,7 @@ $config = array(
     'user' => 'leafcoinrpc',
     'pass' => '--password--',
     'host' => '127.0.0.1',
-    'port' => '22555' );
+    'port' => '22812' );
 
 // create client conncetion
 $leaf = new Leaf( $config );
