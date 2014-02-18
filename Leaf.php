@@ -130,6 +130,13 @@ class Leaf  {
         $txid = $this->client->sendfrom( $account, $to_address, $amount );  
         return $txid;
     }
-
+    
+    /**
+     * Pull Coin Mining Information from Leafcoin community
+     * 
+     * Get current block number, current difficulty, current network hash rate
+     */
+     function get_mining_info(){
+         return $this->client->getmininginfo();
+     }
 }
-
