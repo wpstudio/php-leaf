@@ -11,7 +11,7 @@ I plan to expand upon the end points of the API.  Right now accounts and movemen
 
 Requires **leafcoind** to already be installed and running on your local server or reachable by your server.  
 
-Get carboncoind source from: https://github.com/leafcoin/leafcoin
+Get leafcoin source from: https://github.com/leafcoin/leafcoin
 
 
 ## Usage:
